@@ -31,7 +31,7 @@ public class Rectangulo_SFP extends FiguraGeometrica_SFP {
 	
 /**
  * Se sobrescribe el método perimetro para la subclase Rectangulo_SFP
- * devulve el valor del perimetro parametro l1*2+parametrol2*2 
+ * devuelve el valor del perimetro parmetro l1*2+parametrol2*2 
  */
 	@Override
 	public double perimetro() {
