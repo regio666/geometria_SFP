@@ -1,5 +1,5 @@
 /**
- * Clase rectángulo extendida de FiguraGeométrica
+ * Clase rectángulo extendida de FiguraGeometrica_SFP
  * @author Sergio Fernández Pina
  * @version 1.1
  *
