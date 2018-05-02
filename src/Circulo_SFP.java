@@ -7,6 +7,10 @@ public class Circulo_SFP extends FiguraGeometrica_SFP {
 	public Circulo_SFP(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		
+		if (radio<0) {
+			radio=radio*(-1);			
+		}
 	}
 
 	@Override
