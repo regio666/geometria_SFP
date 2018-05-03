@@ -2,7 +2,7 @@
  * Clase rectángulo extendida de FiguraGeometrica_SFP
  * @author Sergio Fernández Pina
  * @version 1.1
- *
+ * Con la clase se declaran los atributos double l1 y l2
  */
 
 public class Rectangulo_SFP extends FiguraGeometrica_SFP {
@@ -11,9 +11,9 @@ public class Rectangulo_SFP extends FiguraGeometrica_SFP {
 	
 /**
  * Constructor de la clase, con los siguentes parametros de entrada:
- * @param tipoFigura
- * @param lG
- * @param lP
+ * @param tipoFigura :cadena con el tipo de figura
+ * @param lG :parametro para lado 1
+ * @param lP :parametro para lado 2
  */
 	public Rectangulo_SFP(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
@@ -22,7 +22,7 @@ public class Rectangulo_SFP extends FiguraGeometrica_SFP {
 	}
 /**
  * Se sobrescribe el método area para la subclase Rectangulo_SFP
- * devuelve el valor del area multiplicando los parametros l1y12
+ * @return :devuelve el valor del area multiplicando los parametros l1y12
  */
 	@Override
 	public double area() {
@@ -31,7 +31,7 @@ public class Rectangulo_SFP extends FiguraGeometrica_SFP {
 	
 /**
  * Se sobrescribe el método perimetro para la subclase Rectangulo_SFP
- * devuelve el valor del perimetro parametro l1*2+parametrol2*2 
+ * @return :devuelve el valor del perimetro parametro l1*2+parametrol2*2 
  */
 	@Override
 	public double perimetro() {
